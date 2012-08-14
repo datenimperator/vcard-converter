@@ -1,29 +1,19 @@
-*.gem
-*.rbc
-.bundle
-.config
-coverage
-InstalledFiles
-lib/bundler/man
-pkg
-rdoc
-spec/reports
-test/tmp
-test/version_tmp
-tmp
-
-# YARD artifacts
-.yardoc
-_yardoc
-doc/
-
-.DS_Store
-*.swp
+# Exclude the build directory
+build/*
+ 
+# Exclude temp nibs and swap files
 *~.nib
-
-build/
-
-*.pbxuser
+*.swp
+ 
+# Exclude OS X folder attributes
+.DS_Store
+ 
+# Exclude user-specific XCode 3 and 4 files
+*.mode1
+*.mode1v3
+*.mode2v3
 *.perspective
 *.perspectivev3
+*.pbxuser
+*.xcworkspace
 xcuserdata
