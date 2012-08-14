@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DA7E4910ACC9AEB00B17D13 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		4DA7E4920ACC9AEB00B17D13 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
+		4DA7E4930ACC9AEB00B17D13 /* VCardDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B4FDCFA73011CA2CEA /* VCardDocument.nib */; };
+		4DA7E4940ACC9AEB00B17D13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		4DA7E4950ACC9AEB00B17D13 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = E8F5E29F03AEDEA503A81C6F /* rb_main.rb */; };
+		4DA7E4960ACC9AEB00B17D13 /* VCardDocument.rb in Resources */ = {isa = PBXBuildFile; fileRef = E8F5E2A103AEDEBE03A81C6F /* VCardDocument.rb */; };
+		4DA7E4980ACC9AEB00B17D13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		4DA7E49A0ACC9AEB00B17D13 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		4DA7E49B0ACC9AEB00B17D13 /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F5E29503AEDE5A03A81C6F /* RubyCocoa.framework */; };
+		AA6C946C117CE23900D2D783 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = AA6C946B117CE23900D2D783 /* AppDelegate.rb */; };
+		AA7C27541179B2E000AAF17B /* vcard.rb in Resources */ = {isa = PBXBuildFile; fileRef = AA7C27531179B2E000AAF17B /* vcard.rb */; };
+		AA7C275F1179B49000AAF17B /* xing.tiff in Resources */ = {isa = PBXBuildFile; fileRef = AA7C275E1179B49000AAF17B /* xing.tiff */; };
+		AA953A9F117C9B6800B83961 /* xing2.icns in Resources */ = {isa = PBXBuildFile; fileRef = AA953A9E117C9B6800B83961 /* xing2.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4B5FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/VCardDocument.nib; sourceTree = "<group>"; };
+		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4DA7E49F0ACC9AEB00B17D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA7E4A00ACC9AEB00B17D13 /* VCardConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCardConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6C946B117CE23900D2D783 /* AppDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		AA7C27531179B2E000AAF17B /* vcard.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = vcard.rb; sourceTree = "<group>"; };
+		AA7C275E1179B49000AAF17B /* xing.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = xing.tiff; sourceTree = "<group>"; };
+		AA953A9E117C9B6800B83961 /* xing2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = xing2.icns; sourceTree = "<group>"; };
+		AA953AC3117C9F9B00B83961 /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/VCardDocument.nib; sourceTree = "<group>"; };
+		AA953AC5117CA06400B83961 /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		AA953AC9117CA08900B83961 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = German; path = German.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AA953AE0117CA17B00B83961 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAA2FE4C11844F5200FDE6B4 /* Rakefile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Rakefile; sourceTree = "<group>"; };
+		E8F5E29503AEDE5A03A81C6F /* RubyCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RubyCocoa.framework; path = /Library/Frameworks/RubyCocoa.framework; sourceTree = "<absolute>"; };
+		E8F5E29F03AEDEA503A81C6F /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		E8F5E2A103AEDEBE03A81C6F /* VCardDocument.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = VCardDocument.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DA7E4990ACC9AEB00B17D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA7E49A0ACC9AEB00B17D13 /* Cocoa.framework in Frameworks */,
+				4DA7E49B0ACC9AEB00B17D13 /* RubyCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+				E8F5E29503AEDE5A03A81C6F /* RubyCocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DA7E4A00ACC9AEB00B17D13 /* VCardConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* xing2 */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+				4DA7E49F0ACC9AEB00B17D13 /* Info.plist */,
+				AAA2FE4C11844F5200FDE6B4 /* Rakefile */,
+			);
+			name = xing2;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E8F5E2A103AEDEBE03A81C6F /* VCardDocument.rb */,
+				AA7C27531179B2E000AAF17B /* vcard.rb */,
+				AA6C946B117CE23900D2D783 /* AppDelegate.rb */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+				E8F5E29F03AEDEA503A81C6F /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA953A9E117C9B6800B83961 /* xing2.icns */,
+				AA7C275E1179B49000AAF17B /* xing.tiff */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
+				2A37F4B4FDCFA73011CA2CEA /* VCardDocument.nib */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4DA7E48F0ACC9AEB00B17D13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4DA7E48E0ACC9AEB00B17D13 /* VCardConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA7E49C0ACC9AEB00B17D13 /* Build configuration list for PBXNativeTarget "VCardConverter" */;
+			buildPhases = (
+				4DA7E48F0ACC9AEB00B17D13 /* Headers */,
+				4DA7E4900ACC9AEB00B17D13 /* Resources */,
+				4DA7E4970ACC9AEB00B17D13 /* Sources */,
+				4DA7E4990ACC9AEB00B17D13 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VCardConverter;
+			productInstallPath = "$(HOME)/Applications";
+			productName = xing2;
+			productReference = 4DA7E4A00ACC9AEB00B17D13 /* VCardConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "software-consultant.net";
+			};
+			buildConfigurationList = 4DDA93C30ABF754D00FBC9C8 /* Build configuration list for PBXProject "xing2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* xing2 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DA7E48E0ACC9AEB00B17D13 /* VCardConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DA7E4900ACC9AEB00B17D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA7E4910ACC9AEB00B17D13 /* Credits.rtf in Resources */,
+				4DA7E4920ACC9AEB00B17D13 /* MainMenu.nib in Resources */,
+				4DA7E4930ACC9AEB00B17D13 /* VCardDocument.nib in Resources */,
+				4DA7E4940ACC9AEB00B17D13 /* InfoPlist.strings in Resources */,
+				4DA7E4950ACC9AEB00B17D13 /* rb_main.rb in Resources */,
+				4DA7E4960ACC9AEB00B17D13 /* VCardDocument.rb in Resources */,
+				AA7C27541179B2E000AAF17B /* vcard.rb in Resources */,
+				AA7C275F1179B49000AAF17B /* xing.tiff in Resources */,
+				AA953A9F117C9B6800B83961 /* xing2.icns in Resources */,
+				AA6C946C117CE23900D2D783 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DA7E4970ACC9AEB00B17D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA7E4980ACC9AEB00B17D13 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+				AA953AE0117CA17B00B83961 /* German */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A37F4B4FDCFA73011CA2CEA /* VCardDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B5FDCFA73011CA2CEA /* English */,
+				AA953AC3117C9F9B00B83961 /* German */,
+			);
+			name = VCardDocument.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B7FDCFA73011CA2CEA /* English */,
+				AA953AC5117CA06400B83961 /* German */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+				AA953AC9117CA08900B83961 /* German */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DA7E49D0ACC9AEB00B17D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = VCardConverter;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4DA7E49E0ACC9AEB00B17D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "VCard Converter";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4DDA93C40ABF754D00FBC9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "VCard Converter";
+			};
+			name = Debug;
+		};
+		4DDA93C50ABF754D00FBC9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "VCard Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DA7E49C0ACC9AEB00B17D13 /* Build configuration list for PBXNativeTarget "VCardConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA7E49D0ACC9AEB00B17D13 /* Debug */,
+				4DA7E49E0ACC9AEB00B17D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDA93C30ABF754D00FBC9C8 /* Build configuration list for PBXProject "xing2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDA93C40ABF754D00FBC9C8 /* Debug */,
+				4DDA93C50ABF754D00FBC9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
